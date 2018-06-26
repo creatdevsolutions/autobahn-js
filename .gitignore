@@ -9,4 +9,7 @@ node_modules
 .idea/
 .*.swp
 .lock-*
-package/.crossbar/
+package/
+.crossbar/
+.idea
+*.tgz
