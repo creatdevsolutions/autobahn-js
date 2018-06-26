@@ -1,6 +1,6 @@
 {
-  "name": "autobahn",
-  "version": "18.3.2",
+  "name": "@cs/bundesstrasse",
+  "version": "18.6.26",
   "description": "An implementation of The Web Application Messaging Protocol (WAMP).",
   "main": "index.js",
   "scripts": {
@@ -32,16 +32,12 @@
     "lib/transport/rawsocket.js": false,
     "cbor": false
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crossbario/autobahn-js.git"
-  },
   "keywords": [
     "WAMP",
     "WebSocket",
     "RPC",
     "PubSub"
   ],
-  "author": "Crossbar.io Technologies GmbH",
+  "author": "Johann Wagner",
   "license": "MIT"
 }

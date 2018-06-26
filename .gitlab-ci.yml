@@ -1,0 +1,14 @@
+image: node:10
+
+before_script:
+- echo //npm.ci.server.creatdev-solutions.com/:_authToken="QBJmBeQ9ZXVmvyZ2RPw4xVbFhm+oUbLNdg4iXatd25A=" > /root/.npmrc
+- echo registry=https://npm.ci.server.creatdev-solutions.com >> /root/.npmrc
+- NODE_ENV=development
+
+pack:
+  stage: build
+  only:
+  - tags
+  script:
+  - npm install
+  - npm publish
