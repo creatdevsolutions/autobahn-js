@@ -227,11 +227,6 @@ Options that define **Custom error handlers:**
     - when a protocol violation is occured,
     - when no `onchallenge` defined, but a challenge request is received due to authenticate the client,
 
-Options that control **tls connection**:
--   `tlsConfiguration`: *object*
-    - `ca`: *Loaded CA file*
-    - `cert`: *Loaded certificate file*
-    - `key`: *Loaded key file*
 
 ```javascript
     var connection = new autobahn.Connection({
@@ -259,11 +254,12 @@ Options that control **tls connection**:
 > error is sent back to the Dealer, and the Caller will receive a `runtime.error` wamp message.
 
 
- Options that control **tls connection**:
+Options that control **tls connection**:
  -   `tlsConfiguration`: *object*
      - `ca`: *Buffer | String* - CA
      - `cert`: *Buffer | String* - Certificate Public Key
      - `key`: *Buffer | String* - Certificate Private Key
+
 
 Connection Properties
 ---------------------
