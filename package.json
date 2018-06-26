@@ -1,6 +1,6 @@
 {
   "name": "@cs/bundesstrasse",
-  "version": "18.6.27",
+  "version": "18.6.28",
   "description": "An implementation of The Web Application Messaging Protocol (WAMP).",
   "main": "index.js",
   "scripts": {
