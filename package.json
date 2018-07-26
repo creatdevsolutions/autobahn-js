@@ -1,6 +1,6 @@
 {
   "name": "@creatdevsolutions/bundesstrasse",
-  "version": "18.10.15",
+  "version": "18.10.16",
   "publishConfig": {
     "registry": "https://registry.npmjs.com",
     "access": "public"
