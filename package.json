@@ -1,6 +1,11 @@
 {
-  "name": "@cs/bundesstrasse",
+  "name": "@creatdevsolutions/bundesstrasse",
   "version": "18.6.28",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
+
   "description": "An implementation of The Web Application Messaging Protocol (WAMP).",
   "main": "index.js",
   "scripts": {
